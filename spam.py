@@ -1,3 +1,11 @@
+# Load saved model
+with open('spam_model.pkl', 'rb') as model_file:
+    model = pickle.load(model_file)
+
+# Load saved vectorizer
+with open('vectorizer.pkl', 'rb') as vec_file:
+    vectorizer = pickle.load(vec_file)
+
 from flask import Flask, request, render_template
 import pickle
 
