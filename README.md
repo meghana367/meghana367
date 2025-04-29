@@ -17,3 +17,37 @@ Example:
 
 Congratulations! You've won a $1000 Walmart gift card. Click here to claim now.
 → Result: Spam
+
+# 📁 Project Structure
+
+```
+.
+├── app.py                 # Flask app
+├── train_model.py         # Model training script
+├── spam_model.pkl         # Trained model file
+├── vectorizer.pkl         # Trained vectorizer
+├── requirements.txt       # Python dependencies
+├── templates/
+│   └── index.html         # Frontend template with CSS
+└── README.md              # Project documentation
+```
+# 🔧 Setup Instructions
+## 1.Clone this repository:
+```
+git clone https://github.com/meghana367/spam-sms-detector.git
+cd spam-sms-detector
+```
+## 2.Install dependencies:
+```
+pip install -r requirements.txt
+```
+## 3.Run the Flask app:
+```
+python app.py
+```
+## 4.Open your browser and go to:
+Open your browser and go to:
+```
+http://127.0.0.1:5000/
+```
+
