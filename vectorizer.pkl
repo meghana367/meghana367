@@ -1,9 +1,7 @@
-import pickle
+# Load saved model
+with open('spam_model.pkl', 'rb') as model_file:
+    model = pickle.load(model_file)
 
-# Save the model
-with open('/mnt/data/spam_model.pkl', 'wb') as model_file:
-    pickle.dump(model, model_file)
-
-# Save the vectorizer
-with open('/mnt/data/vectorizer.pkl', 'wb') as vec_file:
-    pickle.dump(vectorizer, vec_file)
+# Load saved vectorizer
+with open('vectorizer.pkl', 'rb') as vec_file:
+    vectorizer = pickle.load(vec_file)
