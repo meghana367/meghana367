@@ -51,3 +51,12 @@ Open your browser and go to:
 http://127.0.0.1:5000/
 ```
 
+# 📦 Dependencies
+Flask
+pandas
+scikit-learn
+numpy
+
+# 📝 License
+This project is for educational purposes. Free to use and modify.
+
